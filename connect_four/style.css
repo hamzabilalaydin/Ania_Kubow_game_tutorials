@@ -1,9 +1,9 @@
 .grid {
-  border: 1px solid;
-  height: 120px;
-  width: 140px;
   display: flex;
   flex-wrap: wrap;
+  border: 1px solid black;
+  height: 120px;
+  width: 140px;
 }
 
 .grid div {
@@ -19,4 +19,31 @@
 .player-two {
   background-color: blue;
   border-radius: 10px;
+}
+
+.blue {
+  color: blue;
+  height: 12px;
+  width: 12px;
+}
+
+.red {
+  color: red;
+  height: 12px;
+  width: 12px;
+}
+
+button {
+  border-radius: 100px;
+  border: none;
+  height: 14px;
+  width: 14px;
+}
+
+.circle-red {
+  background-color: red;
+}
+
+.circle-blue {
+  background-color: blue;
 }
